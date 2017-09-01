@@ -1,32 +1,60 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
 /* Main Background */
 
 
 
 /* Game Board Background */
+#container {
+	background-image: url("../images/norwegian_rose.png");
+	background-repeat: repeat;
 
+}
 
 
 /* Header */
-
+header {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: auto;
+	padding-right: auto;
+}
 
 	/* Title */
-
+	h1 {
+		font-size: 4em;
+		font-family: 'Cinzel Decorative', cursive;
+	}
 
 	/* Subtitle */
-
+	h2 {
+		margin-top: 10px;
+		font-size: 2em;
+		font-family: 'Cedarville Cursive', cursive;
+	}
 
 	/* Timer */
+	#timer {
 
+	}
 
 
 /* Question Container */
-
+.question {
+	max-width: 48em;
+}
 
 	/* Trivia Question */
-
+	h3 {
+		font-size: 1.25em;
+	}
 
 	/* Trivia Answers */
-
+	input {
+		font-size: 1em;
+		margin: 5px;
+	}
 
 
 /* Fun Fact Container */
@@ -37,4 +65,23 @@
 
 	/* Fun Fact - Loss */
 
+
+
+/* Score Container */
+
+
+	/* Score */
+
+/* General Formatting */
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.centered {
+	text-align: center;
+}
 

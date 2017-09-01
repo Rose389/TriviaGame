@@ -1,94 +1,130 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Angelina Jolie Trivia</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Cinzel+Decorative:400,900|Raleway:400,500,600|" rel="stylesheet">
 </head>
+
 <body>
-	<header>
-		<h1>Angelina Jolie</h1>
-		<h2>How well do you know her?</h2>
-	</header>
-	
+<header>
+	<h1 class="bold centered">Angelina Jolie</h1>
+	<h2 class="bold centered">How well do you know her?</h2>
+</header>
+
+
+<div id="container">
+
+<div id="scoreTime">
 	<div id="timer">Timer Countdown</div>
+	<div id="score"></div>
+</div>
 
 	<div class="question">
-	<h3>How many husbands has Angelina had?</h3>
+	<h3 class="bold italic">How many husbands has Angelina had?</h3>
 		<form action="">
 			<div>
-			  	<input type="radio" name="Q1answer" value="true"> 3<br>
-			  	<input type="radio" name="Q1answer" value="false"> 4<br>
-			  	<input type="radio" name="Q1answer" value="false"> 2<br>
-			 	<input type="radio" name="Q1answer" value="false"> 1<br>
-			  	<input type="radio" name="Q1answer" value="false"> None of the above
+			  	<input class="answer" type="radio" name="Q1answer" value="true"> 3
+			  	<br>
+			  	<input class="answer" type="radio" name="Q1answer" value="false"> 4
+			  	<br>
+			  	<input class="answer" type="radio" name="Q1answer" value="false"> 2
+			  	<br>
+			 	<input class="answer" type="radio" name="Q1answer" value="false"> 1
+			 	<br>
+			  	<input class="answer" type="radio" name="Q1answer" value="false"> None of the above
 			</div> <!-- END answers div -->
 		</form>
 	</div>
 
 	<div class="question">
-	<h3>Who is Angelina's father?</h3>
+	<h3 class="bold italic">Who is Angelina's father?</h3>
 		<form action="">
 			<div>
-				<input type="radio" name="Q2answer" value="true"> Jon Voight<br>
-				<input type="radio" name="Q2answer" value="false"> Jon Trudell<br>
-				<input type="radio" name="Q2answer" value="false"> Bill Day<br>
-				<input type="radio" name="Q2answer" value="false"> Vincent Cosell<br>
-				<input type="radio" name="Q2answer" value="false"> None of the above
+				<input class="answer" type="radio" name="Q2answer" value="true"> Jon Voight
+				<br>
+				<input class="answer" type="radio" name="Q2answer" value="false"> Jon Trudell
+				<br>
+				<input class="answer" type="radio" name="Q2answer" value="false"> Bill Day
+				<br>
+				<input class="answer" type="radio" name="Q2answer" value="false"> Vincent Cosell
+				<br>
+				<input class="answer" type="radio" name="Q2answer" value="false"> None of the above
 			</div> <!-- END answers div -->
 		</form>
 	</div>
 
 	<div class="question">
-	<h3>Angelina's mother died of ovarian cancer in 2007. Which of her children did Angelina name in honor of her mother?</h3>
-		<div>
-			<form action="">
-			  <input type="radio" name="Q3answer" value="true"> Vivienne Marcheline<br>
-			  <input type="radio" name="Q3answer" value="false"> Zahara Marley<br>
-			  <input type="radio" name="Q3answer" value="false"> Shiloh Nouvel<br>
-			  <input type="radio" name="Q3answer" value="false"> Madeline Chivan<br>
-			  <input type="radio" name="Q3answer" value="false"> None of the above
-			</form>
-		</div> <!-- END answers div -->
+	<h3 class="bold italic">Angelina's mother died of ovarian cancer in 2007. Which of her children did Angelina name in honor of her mother?</h3>
+		<form action="">
+			<div>
+			  <input class="answer" type="radio" name="Q3answer" value="true"> Vivienne Marcheline
+			  <br>
+			  <input class="answer" type="radio" name="Q3answer" value="false"> Zahara Marley
+			  <br>
+			  <input class="answer" type="radio" name="Q3answer" value="false"> Shiloh Nouvel
+			  <br>
+			  <input class="answer" type="radio" name="Q3answer" value="false"> Madeline Chivan
+			  <br>
+			  <input class="answer" type="radio" name="Q3answer" value="false"> None of the above
+			</div><!-- END answers div -->
+		</form>
 	</div>
 
 	<div class="question">
-	<h3>Though she appeared in several films and shorts early in her career, in which movie did she make her debut as a lead actress?</h3>
-		<div>
-			<form action="">
-			  <input type="radio" name="Q4answer" value="true"> <span class="italic">Hackers</span><br>
-			  <input type="radio" name="Q4answer" value="false"> <span class="italic">Gia</span><br>
-			  <input type="radio" name="Q4answer" value="false"> <span class="italic">Girl, Interuppted</span><br>
-			  <input type="radio" name="Q4answer" value="false"> <span class="italic">Lara Croft: Tomb Raider</span><br>
-			  <input type="radio" name="Q4answer" value="false"> None of the above
-			</form>
-		</div> <!-- END answers div -->
+	<h3 class="bold italic">Though she appeared in several films and shorts early in her career, in which movie did she make her debut as lead actress?</h3>
+		<form action="">
+			<div>
+			  <input class="answer" type="radio" name="Q4answer" value="true"> <span class="italic">Hackers</span>
+			  <br>
+			  <input class="answer" type="radio" name="Q4answer" value="false"> <span class="italic">Gia</span>
+			  <br>
+			  <input class="answer" type="radio" name="Q4answer" value="false"> <span class="italic">Girl, Interuppted</span>
+			  <br>
+			  <input class="answer" type="radio" name="Q4answer" value="false"> <span class="italic">Lara Croft: Tomb Raider</span>
+			  <br>
+			  <input class="answer" type="radio" name="Q4answer" value="false"> None of the above
+			</div> <!-- END answers div -->
+		</form>
+		
 	</div>
 
 	<div class="question">
-	<h3>Angelina made her initial film debut alongside her father. Which of her children made their film debut alongside Angelina?</h3>
-		<div>
-			<form action="">
-			  <input type="radio" name="Q5answer" value="true"> Vivienne, <span class="italic">Maleficent</span><br>
-			  <input type="radio" name="Q5answer" value="false"> Shiloh, <span class="italic">Changeling</span><br>
-			  <input type="radio" name="Q5answer" value="false"> Maddox, <span class="italic">Kung Fu Panda</span><br>
-			  <input type="radio" name="Q5answer" value="false"> Knox, <span class="italic">By the Sea</span><br>
-			  <input type="radio" name="Q5answer" value="false"> None of the above
-			</form>
+	<h3 class="bold italic">Angelina made her initial film debut alongside her father. Which of her children made their film debut alongside Angelina?</h3>
+		<form action="">
+			<div>
+				<input class="answer" type="radio" name="Q5answer" value="true"> Vivienne, <span class="italic">Maleficent</span>
+				<br>
+				<input class="answer" type="radio" name="Q5answer" value="false"> Shiloh, <span class="italic">Changeling</span>
+				<br>
+				<input class="answer" type="radio" name="Q5answer" value="false"> Maddox, <span class="italic">Kung Fu Panda</span>
+				<br>
+				<input class="answer" type="radio" name="Q5answer" value="false"> Knox, <span class="italic">By the Sea</span>
+				<br>
+				<input class="answer" type="radio" name="Q5answer" value="false"> None of the above
+			</div> <!-- END answers div -->
+		</form>
 		</div> <!-- END answers div -->
-	</div>
 
 	<div class="question">
-	<h3>What are the names of Angelina's six children?</h3>
+	<h3 class="bold italic">What are the names of Angelina's six children?</h3>
 		<div>
 			<form action="">
-			  <input type="radio" name="Q6answer" value="true"> Maddox Chivan, Zahara Marley, Shiloh Nouvel, Knox Leon, Vivienne Marcheline, and Pax Thien<br>
-			  <input type="radio" name="Q6answer" value="false"> Madeline Chivan, Shiloh Leon, Zahara Marcheline, Payton Marley, Maxim Thien, and Leon Knox<br>
-			  <input type="radio" name="Q6answer" value="false"> Zahara Knox, Marcheline Nouvel, Shiloh Leon, Thien Chivan, Vivienne Maddox, and Pax Marley<br>
-			  <input type="radio" name="Q6answer" value="false"> None of the above
+				<div>
+					<input class="answer" type="radio" name="Q6answer" value="true"> Maddox Chivan, Zahara Marley, Shiloh Nouvel, Knox Leon, Vivienne Marcheline, and Pax Thien
+				    <br>
+					<input class="answer" type="radio" name="Q6answer" value="false"> Madeline Chivan, Shiloh Leon, Zahara Marcheline, Payton Marley, Maxim Thien, and Leon Knox
+					<br>
+					<input class="answer" type="radio" name="Q6answer" value="false"> Zahara Knox, Marcheline Nouvel, Shiloh Leon, Thien Chivan, Vivienne Maddox, and Pax Marley
+					<br>
+					<input class="answer" type="radio" name="Q6answer" value="false"> None of the above
+				</div> <!-- END answers div -->
 			</form>
 		</div> <!-- END answers div -->
 	</div>
+</div>
 
 </body>
 </html>
